@@ -13,7 +13,7 @@ nav.className="navbar"
 
 // Genreo el array con los links y lo recorro
 
-const links=["Index","Contacto","Productos"];
+const links=["Index","Contacto","Producto"];
 
 
 for( const link of links){
