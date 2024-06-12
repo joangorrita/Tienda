@@ -1,9 +1,9 @@
 //accedo a clases
 
-const sectionProducto =document.getElementsByClassName("sectionProducto");
+const main =document.getElementsByClassName("main");
 
-if (sectionProducto.length>0){
-    console.log(sectionProducto[0].innerHTML); 
+if (main.length>0){
+    console.log(main[0].innerHTML); 
 
 
 

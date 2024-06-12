@@ -1,44 +1,48 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
 }
+/* Index */
 
-.navbar nav {
-    height: 4rem;
-}
-
-.navbar nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+header{
     width: 100%;
-}
-
-.navbar nav ul {
+    height: 80px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
+    background-color: #111a9b;
 }
 
-a {
+.navbarDiv{
+    width: 50%;
+}
+
+.logoImg{
+    height: 50%;
+    width: 50px;
+}
+
+.navbarUl{
     text-decoration: none;
-    color: white;
-}
-
-li {
     list-style: none;
-}
-
-.titulo {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-/* prudcto */
-
-.sectionProducto{
     display: flex;
-    flex-direction: column;
-    width: 20%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fafafa;
+
+
+}
+
+.main{
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    min-height: 100vh;
 }
